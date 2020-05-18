@@ -1,0 +1,207 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.a1 {
+    background-color: lavender;
+}
+
+header {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background-color: rgb(5, 109, 109);
+    height: 80px;
+    transition: all 5s;
+    animation: ccc 5s 1;
+}
+
+.img1 {
+    height: 120px;
+    margin: 10px 10px;
+}
+
+.a2 {
+    margin-left: 500px;
+    position: absolute;
+    top: 40px;
+}
+
+.a3 {
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+
+/* imag2 say kaam*/
+
+.img2 {
+    margin-top: 200px;
+    margin-left: 10px;
+}
+
+.a8 {
+    display: inline-block;
+    width: 950px;
+    vertical-align: text-bottom;
+    padding-bottom: 230px;
+    font-family: sans-serif;
+}
+
+.a5 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    padding-left: 120px;
+}
+
+.a6 {
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-left: 120px;
+}
+
+.a7 {
+    padding-top: 20px;
+    line-height: 20px;
+    padding-left: 120px;
+}
+
+
+/*paragra[h k neechay*/
+
+.a10 {
+    margin-left: 600px;
+    margin-top: 40px;
+}
+
+.a9 {
+    padding: 10px 40px;
+    color: white;
+    font-weight: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, teal, rgb(57, 235, 205));
+}
+
+.a10 b {
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+.a11 {
+    margin-left: 130px;
+    margin-top: -50px;
+}
+
+.a11 span {
+    display: block;
+    text-align: center;
+}
+
+.a12 {
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 10px;
+}
+
+.a13 {
+    text-transform: uppercase;
+}
+
+
+/* neechay walay anchors*/
+
+.a14 {
+    margin-left: 50px;
+    margin-top: -25px;
+}
+
+
+/*
+.a15 {
+    position: relative;
+    margin-left: 20px;
+    width: 250px;
+    height: 100px;
+    background: lavenderblush;
+    border-top-width: 30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: inline-block;
+    text-align: center;
+}*/
+
+.a15 {
+    padding: 50px 100px;
+    border-top-width: 30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-style: solid;
+    background-color: lavenderblush;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    animation: aaa 2s;
+}
+
+@keyframes aaa {
+    0% {
+        border-top-color: black;
+        background-color: black;
+        color: black;
+    }
+    50% {
+        margin-left: -250px;
+    }
+}
+
+#a151 {
+    border-top-color: rgb(35, 35, 207);
+    color: rgb(35, 35, 207);
+}
+
+#a151:hover {
+    color: white;
+    background-color: rgb(35, 35, 207);
+    transition: all 0.4s 0.1s;
+}
+
+#a152 {
+    border-top-color: rgb(207, 35, 130);
+    color: rgb(207, 35, 130);
+}
+
+#a152:hover {
+    color: white;
+    background-color: rgb(207, 35, 130);
+    transition: all 0.4s 0.1s;
+}
+
+#a153 {
+    border-top-color: rgb(205, 207, 44);
+    color: rgb(205, 207, 44);
+}
+
+#a153:hover {
+    color: white;
+    background-color: rgb(205, 207, 44);
+    transition: all 0.4s 0.1s;
+}
+
+#a154 {
+    border-top-color: rgb(7, 109, 109);
+    color: rgb(7, 109, 109);
+}
+
+#a154:hover {
+    color: white;
+    background-color: rgb(7, 109, 109);
+    text-shadow: 1px 0px 1px white;
+    transition: all 0.4s 0.1s;
+}

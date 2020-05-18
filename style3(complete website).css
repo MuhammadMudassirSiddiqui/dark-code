@@ -1,0 +1,127 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.a1 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+.a2 {
+    margin: 20px;
+    width: 90px;
+    height: 90px;
+    background: lightgrey;
+    border-radius: 30%;
+    display: inline-block;
+    position: relative;
+    color: #3498db;
+    overflow: hidden;
+}
+
+.a2 i {
+    line-height: 90px;
+    font-size: 30px;
+    transform: linear .2s;
+}
+
+.a2:hover i {
+    transform: scale(1.8);
+    transition: all 1s 1;
+    color: whitesmoke;
+}
+
+.a2::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #3498db;
+    transform: rotate(45deg);
+    top: 90%;
+    left: -110%;
+}
+
+.a2:hover::before {
+    animation: vvv 0.5s 1;
+    top: -10%;
+    left: -10%;
+}
+
+@keyframes vvv {
+    0% {
+        top: 90%;
+        left: -110%;
+    }
+    50% {
+        top: -30%;
+        left: 10%;
+    }
+    100% {
+        top: -10%;
+        left: -10%;
+    }
+}
+
+
+/*contect*/
+
+.a3 {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+.a4 {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: sans-serif;
+    letter-spacing: 6px;
+    word-spacing: 15px;
+    animation: hhh 5s 1;
+    color: #3498db;
+}
+
+@keyframes hhh {
+    0% {
+        color: black;
+        border-top: 5px solid aqua;
+        transition: linear 0.1s 0.1s;
+    }
+    10% {
+        color: black;
+        border-bottom: 5px solid aqua;
+        transition: linear 0.1s 0.1s;
+    }
+    25% {
+        color: black;
+        border-left: 5px solid aqua;
+        transition: linear 0.1s 0.1s;
+    }
+    40% {
+        color: black;
+        border-top: 5px solid aqua;
+        transition: linear 0.1s 0.1s;
+    }
+    50% {
+        color: black;
+        border-right: 5px solid aqua;
+        transition: linear 0.1s 0.1s;
+    }
+    70% {
+        color: aqua;
+        transition: all 1s 0.1ms;
+    }
+    100% {
+        color: aqua;
+        transition: all 1s 0.1;
+    }
+}
